@@ -15,16 +15,28 @@ npm install --save buttonloading
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'buttonloading'
+import {LoadingButton} from 'buttonloading'
 import 'buttonloading/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <LoadingButton />
   }
 }
+```
+## 
+This component user @material-ui/core button and can take its arguments. 
+Also use CircularProgress from the @material-ui/core and it can take progressprops to porps CircularProgress
+##
+such as 
+```jsx
+const [isBusy,setBusy] = useState(true)
+const progressprops = {color:"primary", size:24}
+
+//
+  <LoadingButton color="primary" progressprops={progressprops} isBusy={isBusy} onClick={handleClick}> TEXT OF Button </LoadingButton>
 ```
 
 ## License
 
-MIT © [Burak İmrek](https://github.com/Burak İmrek)
+MIT © [Burak İmrek](https://github.com/devburak)

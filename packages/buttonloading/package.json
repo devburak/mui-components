@@ -53,5 +53,6 @@
   ],
   "dependencies": {
     "@material-ui/core": "^4.9.14"
-  }
+  },
+  "gitHead": "1994d883fab2051d93258af7591532abfb8eddad"
 }
