@@ -1,0 +1,1 @@
+{"version":3,"file":"index.umd.js","sources":["../src/index.js"],"sourcesContent":["import React from 'react'\r\n\r\nexport default function Deneme() {\r\n  return <p>Deneme</p>\r\n}"],"names":["React"],"mappings":"sSAGE,OAAOA"}
