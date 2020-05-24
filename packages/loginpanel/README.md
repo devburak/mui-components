@@ -68,9 +68,59 @@ passwordprops = { InputProps: {
 		fullWidth:  true,
 		name:  'password',
 		label:  'Password'
-	}
+	}  //look at material-ui.com for details 
+
+  usernameprops = {
+      InputProps: {
+        startAdornment: (
+          <InputAdornment position='start'>
+            <AccountCircle />
+          </InputAdornment>
+        )
+      },
+      label: 'User Name or Email',
+      fullWidth: true,
+      name: 'username',
+      autoComplete: 'email',
+      autoFocus: true,
+      variant: 'outlined',
+      margin: 'normal',
+      required: true
+    } //look at material-ui.com for details 
+
+
+	isbusy = false
+	
+    progressprops = { color: 'primary', size: 21 }
+    
+    buttonprops = { color: 'primary', type: 'submit', variant: 'contained' }
+
+	website = {
+      name: 'website',
+      url: 'https://material-ui.com',
+      copyrightvisible: true,
+      logo: '/broken-image.jpg'
+    }
+    
+    formControl = {
+      label: 'Remember me',
+      control: { value: 'remember', color: 'primary' }
+    }
+    
+    forgetpassword = { text: 'Forgot password?', link: '#', visible: true }
+    
+    signin = { text: 'SIGN IN', icon: undefined }
+    
+    signup = {
+      text: "Don't have an account? Sign Up",
+      link: '#',
+      visible: true
+    }
 ```
-**
+
+**onSubmit** have to be function from parent component to handle variables.
+
+You can run just defined onSubmit.
 
 The reserved identifiers are:
 		**username** = @material-ui/core/**TextField** for "username"
@@ -80,6 +130,7 @@ The reserved identifiers are:
 
 
 **PeerDependency**
+
 Do not use it if you are not already using
 **[@material-ui/icons](https://material-ui.com/)**,
 **[@material-ui/core](https://material-ui.com/)**,
