@@ -1,6 +1,6 @@
 {
   "name": "loginpanel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Login Panel with Material-ui components",
   "author": "Burak İmrek",
   "license": "MIT",
@@ -53,6 +53,6 @@
   "dependencies": {
     "@material-ui/core": "^4.10.0",
     "@material-ui/icons": "^4.9.1",
-    "buttonloading": "^0.1.0"
+    "buttonloading": "^0.1.1"
   }
 }

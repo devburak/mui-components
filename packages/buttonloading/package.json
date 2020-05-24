@@ -1,6 +1,6 @@
 {
   "name": "buttonloading",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Made with create-react-library",
   "author": "Burak İmrek",
   "license": "MIT",
@@ -53,7 +53,7 @@
   ],
   "dependencies": {
     "@material-ui/core": "^4.9.14",
-    "loginpanel": "^1.0.0"
+    "loginpanel": "^1.0.1"
   },
   "gitHead": "bb9924fb3da0a3b568e21e02ea6aad99a3b156b4"
 }

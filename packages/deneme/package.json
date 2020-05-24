@@ -1,6 +1,6 @@
 {
   "name": "deneme",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "source": "src/index.js",
@@ -13,6 +13,6 @@
   },
   "gitHead": "bb9924fb3da0a3b568e21e02ea6aad99a3b156b4",
   "dependencies": {
-    "loginpanel": "^1.0.0"
+    "loginpanel": "^1.0.1"
   }
 }
