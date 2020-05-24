@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^7.1.2",
     "buttonloading": "^1.0.0",
     "deneme": "^0.0.3",
+    "loginpanel": "^1.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"

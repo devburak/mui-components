@@ -6,8 +6,7 @@ export const LoadingButton = (props) => {
   const { isbusy, progressprops } = props
   return (
     <Button {...props} disabled={isbusy}>
-      {isbusy && <CircularProgress {...progressprops} />}
-      {!isbusy && props.children}
+      {isbusy ? <CircularProgress {...progressprops} /> : props.children}
     </Button>
   )
 }

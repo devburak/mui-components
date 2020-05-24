@@ -11,5 +11,8 @@
   "peerDependencies": {
     "react": "^16.13.1"
   },
-  "gitHead": "bb9924fb3da0a3b568e21e02ea6aad99a3b156b4"
+  "gitHead": "bb9924fb3da0a3b568e21e02ea6aad99a3b156b4",
+  "dependencies": {
+    "loginpanel": "^1.0.0"
+  }
 }

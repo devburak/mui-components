@@ -3788,6 +3788,7 @@ buttonloading@^1.0.0:
   version "0.1.0"
   dependencies:
     "@material-ui/core" "^4.9.14"
+    loginpanel "^1.0.0"
 
 byline@^5.0.0:
   version "5.0.0"
