@@ -153,6 +153,7 @@ function LoginPanel(props) {
           <FormControlLabel
             control={
               <Checkbox
+                id='rememberme'
                 value={formControl.control.value}
                 color={formControl.control.color}
               />
