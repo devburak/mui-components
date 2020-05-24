@@ -52,8 +52,7 @@
     "dist"
   ],
   "dependencies": {
-    "@material-ui/core": "^4.9.14",
-    "loginpanel": "^1.0.1"
+    "@material-ui/core": "^4.9.14"
   },
-  "gitHead": "bb9924fb3da0a3b568e21e02ea6aad99a3b156b4"
+  "gitHead": "317537c1548d2a66e79c57d8c5b5950118e57558"
 }
